@@ -3,10 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
-/* Begin PBXGroup section */
+/* Begin PBXGroup section 3*/
 		8748D03E1B532D1700DCE9E9 = {
 			isa = PBXGroup;
 			children = (
@@ -19,10 +19,10 @@
 		8748D03F1B532D1700DCE9E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 			};
 			buildConfigurationList = 8748D0421B532D1700DCE9E9 /* Build configuration list for PBXProject "vvv" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -40,6 +40,8 @@
 		8748D0431B532D1700DCE9E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
